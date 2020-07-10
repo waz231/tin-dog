@@ -1,0 +1,160 @@
+body {
+    font-family: Montserrat;
+    font-weight: 400;
+}
+
+/* Title */
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+.container-fluid {
+    padding: 3% 15% 7%
+    ;
+}
+.navbar {
+    padding-bottom: 4.5rem;
+}
+.navbar-brand {
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.nav-item {
+    padding: 0 18px;
+}
+h1 {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    padding-left: 3%;
+}
+.download-button {
+    margin: 10% 3%;
+}
+.title-img {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+
+/* Features */
+
+#features {
+    padding: 7% 13%;
+    background-color: #fff;
+    position: relative;
+}
+.feature-box {
+    text-align: center;
+    padding: 3%;
+}
+h3 {
+    font-family: Montserrat;
+    font-weight: 900;
+}
+.icon {
+    color: #ef8172;
+    margin: 1rem;
+}
+.icon:hover {
+    color: #ff4c68;
+}
+p {
+    color: #8f8f8f;
+    padding: 0 5%;
+}
+
+
+/* Testimonials */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+#testimonialCarousel {
+    padding: 7% 13%;
+}
+
+.testimonial-text {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 3rem;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press */
+
+#press {
+    text-align: center;
+    background-color: #ef8172;
+    padding: 3%;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+    text-align: center;
+    padding: 100px;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-weight: 900;
+}
+.card {
+    margin: 5%;
+}
+
+
+/* Call to Action */
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+    padding-bottom: 6%;
+}
+.cta-font {
+    font-size: 3rem;
+    padding: 4% 24%;
+}
+
+
+/* Footer */
+
+#footer {
+    text-align: center;
+    padding-top: 5%;
+}
+.social-icon {
+    padding: 5% 0 1%;
+    
+}
+.s-icon {
+    margin: 1%;
+    color: black;
+}
+
+/* Responsiveness */
+@media (max-width:1000px) {
+    #title {
+        text-align: center;
+    }
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+}
